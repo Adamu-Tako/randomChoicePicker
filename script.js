@@ -55,7 +55,7 @@ function randomSelect(){
 }
 
 function pickRandomTag(){
-    const tags = document.querySelectorAll('tag')
+    const tags = document.querySelectorAll('.tag')
     return tags[Math.floor(Math.random() * tags.length)]
 }
 
